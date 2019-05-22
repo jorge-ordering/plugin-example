@@ -1,0 +1,14 @@
+{
+    "name": "Modify name plugin",
+    "description": "Transform data to be able to send to mailchimp",
+    "author": "Ordering Inc",
+    "url": "https://ordering.co",
+    "version": "0.0.1",
+    "hooks": {
+        "actions": {
+            "find_user" : [
+                "/test_filter_users_get_php.php"
+            ]
+        }
+    }
+}
